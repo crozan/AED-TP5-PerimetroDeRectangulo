@@ -1,0 +1,5 @@
+Ingrese la base del rectangulo:
+Ingrese la altura del rectangulo:
+Ingrese un numero mayor que cero:
+El perimetro del rectangulo es de 40
+Hasta luego!

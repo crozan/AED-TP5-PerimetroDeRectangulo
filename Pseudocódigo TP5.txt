@@ -1,0 +1,30 @@
+ALGORITMO TP5
+
+VARIABLES 
+    b, h : Real;
+INICIO
+            
+    b <- getNumeroPositivo();
+    h <- getNumeroPositivo();
+
+    Escribir ("El perimetro del rectangulo es de ", getPerimetro(h,b));
+
+FIN
+
+FUNCION getNumeroPositivo(): Real
+    n : Real;
+    Leer (n);
+    
+    MIENTRAS (n <= 0) HACER
+        Leer (n);
+    FIN MIENTRAS
+
+    DEVOLVER (n);
+
+FIN FUNCION
+
+FUNCION getPerimetro(altura, base: Real): Real
+
+    DEVOLVER (altura + base)*2;
+
+FIN FUNCION 
